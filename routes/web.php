@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.homepage-mk-bandung');
 });
+
+Route::get('/article', function () {
+    return view('pages.article-paging-mk-bandung');
+});
