@@ -20,6 +20,7 @@
     <div class="row gx-5">
       <div class="col-8">
         @include('components.main-content-news')
+        @include('components.read-too')
       </div>
       <div class="col-4">
         {{-- TRENDING TAG --}}
