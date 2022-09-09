@@ -19,7 +19,7 @@
   <div class="container mt-4">
     <div class="row gx-5">
       <div class="col-8">
-    
+        @include('components.main-content-news')
       </div>
       <div class="col-4">
         {{-- TRENDING TAG --}}
