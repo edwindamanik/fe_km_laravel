@@ -1,6 +1,6 @@
 <nav>
   <div class="nav-first_section d-flex justify-content-between">
-    <a href="#">
+    <a href="/">
       <img src="{{ URL::asset('assets/images/logo.png') }}" alt="logo" width="168px" height="34px">
     </a>
     <div class="search-container">
