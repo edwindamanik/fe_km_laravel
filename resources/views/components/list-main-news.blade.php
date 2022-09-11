@@ -1,5 +1,5 @@
 <div class="list-main-news-container">
-  <div class="d-flex justify-content-between align-items-center list-main-news-card">
+  <div class="d-flex justify-content-between list-main-news-card">
     <a href="#">
       <img src="{{ URL::asset('assets/images/list-main-news-image1.webp') }}" width="100%" height="130px">
     </a>
@@ -14,7 +14,7 @@
       </a>
     </div>
   </div>
-  <div class="d-flex justify-content-between align-items-center list-main-news-card">
+  <div class="d-flex justify-content-between list-main-news-card">
     <a href="#">
       <img src="{{ URL::asset('assets/images/list-main-news-image2.webp') }}" width="100%" height="130px">
     </a>
