@@ -185,6 +185,7 @@ nav {
 
 .main-news-container figure img {
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .main-news-container figure figcaption {
@@ -244,6 +245,7 @@ nav {
 
 .owl-carousel .owl-item img {
     border-radius: 15px;
+    object-fit: cover;
     position: relative;
 }
 
@@ -290,6 +292,11 @@ nav {
     padding: 20px 0px;
     border-bottom: 1px solid #E5E5E5;
     gap: 20px;
+}
+
+.list-main-news-card img {
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .list-main-news-deskripsi a h4 {
@@ -380,7 +387,7 @@ nav {
 }
 
 .promotion-card a figure img {
-    width: 100%;
+    object-fit: cover;
 }
 
 .promotion-card a {
@@ -494,8 +501,7 @@ nav {
 }
 
 .live-streaming-container img {
-    width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 
 .live-streaming-container a {
@@ -526,8 +532,7 @@ nav {
 }
 
 .berita-sidebar-container figure img {
-    width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 
 .berita-sidebar-container a {
@@ -572,8 +577,7 @@ nav {
 }
 
 .populer-container figure img {
-    width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 
 .populer-container a {

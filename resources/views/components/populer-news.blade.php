@@ -2,7 +2,7 @@
   <h4>populer</h4>
   <a href="#">
     <figure>
-      <img src="{{ URL::asset('assets/images/populer-image.webp') }}">
+      <img src="{{ URL::asset('assets/images/populer-image.webp') }}" width="100%" height="190px">
     </figure>
   </a>
   <div class="list-berita-populer">
