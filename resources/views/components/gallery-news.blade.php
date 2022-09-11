@@ -1,13 +1,13 @@
 <div class="gallery-image-container">
   <div class="parent">
     <div class="div1">
-      <a href="#"><img src="{{ URL::asset('assets/images/image1.png') }}"></a>
+      <a href="#"><img src="{{ URL::asset('assets/images/image1.webp') }}"></a>
     </div>
     <div class="div2">
-      <a href="#"><img src="{{ URL::asset('assets/images/image2.png') }}"></a>
+      <a href="#"><img src="{{ URL::asset('assets/images/image2.webp') }}"></a>
     </div>
     <div class="div3">
-      <a href="#"><img src="{{ URL::asset('assets/images/image2.png') }}"></a>
+      <a href="#"><img src="{{ URL::asset('assets/images/image2.webp') }}"></a>
     </div>
   </div>
 

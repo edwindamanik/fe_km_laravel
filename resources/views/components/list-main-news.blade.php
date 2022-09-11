@@ -1,7 +1,7 @@
 <div class="list-main-news-container">
   <div class="d-flex justify-content-between align-items-center list-main-news-card">
     <a href="#">
-      <img src="{{ URL::asset('assets/images/list-main-news-image1.png') }}">
+      <img src="{{ URL::asset('assets/images/list-main-news-image1.webp') }}">
     </a>
     <div class="list-main-news-deskripsi">
       <div class="category-and-time">
@@ -16,7 +16,7 @@
   </div>
   <div class="d-flex justify-content-between align-items-center list-main-news-card">
     <a href="#">
-      <img src="{{ URL::asset('assets/images/list-main-news-image2.png') }}">
+      <img src="{{ URL::asset('assets/images/list-main-news-image2.webp') }}">
     </a>
     <div class="list-main-news-deskripsi">
       <div class="category-and-time">

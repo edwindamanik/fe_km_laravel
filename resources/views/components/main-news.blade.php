@@ -1,7 +1,7 @@
 <div class="main-news-container">
   <figure>
     <a href="#">
-      <img src="{{ URL::asset('assets/images/main-news-image.png') }}">
+      <img src="{{ URL::asset('assets/images/main-news-image.webp') }}">
     </a>
     <figcaption>5 menit lalu</figcaption>
   </figure>

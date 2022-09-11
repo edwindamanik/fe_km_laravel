@@ -2,7 +2,7 @@
   <h4>live streaming</h4>
   <a href="#">
     <figure>
-      <img src="{{ URL::asset('assets/images/live-streaming-image.png') }}">
+      <img src="{{ URL::asset('assets/images/live-streaming-image.webp') }}">
       <figcaption>Live Streaming - Review Lamborgini Madura</figcaption>
     </figure>
   </a>

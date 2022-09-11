@@ -1,5 +1,5 @@
 <div class="footer-container">
-  <img src="{{ URL::asset('assets/images/logo.png') }}" alt="">
+  <img src="{{ URL::asset('assets/images/logo.webp') }}" alt="">
   <div class="first-link-footer mt-3 d-flex flex-row justify-content-center">
     <a href="#">beritamusi.co.id</a>
     <a href="#">tentang kami</a>

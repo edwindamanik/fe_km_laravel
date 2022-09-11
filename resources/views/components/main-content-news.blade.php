@@ -3,7 +3,7 @@
   <h4>Sepenggal Kenangan Nicky Hayden ketika ada di Jalanan Jakarta</h4>
   <div class="account-shared-content">
     <div class="account">
-      <img src="assets/images/profile-image.png" width="40px" height="40px">
+      <img src="assets/images/profile-image.webp" width="40px" height="40px">
       <div class="account-detail">
         <h5 class="m-0">Septian Denny</h5>
         <span>Jun 23, 2014 at 10:00 WIB</span>
@@ -29,7 +29,7 @@
   <div class="content-news mt-3">
     <a href="#">
       <figure>
-        <img src="{{ URL::asset('assets/images/news-image.png') }}" alt="images news">
+        <img src="{{ URL::asset('assets/images/news-image.webp') }}" alt="images news">
         <figcaption>Tersangka kasus pembunuhan Wayan Mirna Salihin, Jessica Kumala Wongso dikawal petugas masuk ke dalam Rutan Pondok Bambu, Jakarta Timur, Jumat (27/5). Jessica terus menunduk saat memasuki gerbang pintu rutan. (Liputan6.com/Yoppy Renato)</figcaption>
       </figure>
     </a>
