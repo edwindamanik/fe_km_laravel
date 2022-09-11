@@ -33,12 +33,21 @@
         <figcaption>Tersangka kasus pembunuhan Wayan Mirna Salihin, Jessica Kumala Wongso dikawal petugas masuk ke dalam Rutan Pondok Bambu, Jakarta Timur, Jumat (27/5). Jessica terus menunduk saat memasuki gerbang pintu rutan. (Liputan6.com/Yoppy Renato)</figcaption>
       </figure>
     </a>
-    <p>Liputan6.com, Jakarta - Mendiang Nicky Hayden merupakan salah satu dari sekian banyak pebalap MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP. MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP.</p>
-    <p>Hayden sudah dua kali datang ke Jakarta, yakni pada 2013 dan 2014. Dalam dua kunjungannya itu, juara dunia MotoGP 2006 tersebut memiliki kenangan tersendiri dengan jalanan ibu kota.</p> 
-    <p>Hayden pertama kali datang ke Jakarta pada April 2013 sebagai pebalap Ducati. Pebalap asal AS itu datang ke ibu kota untuk memenuhi undangan salah satu produsen pelumas top dunia.</p>
-    <p>Hayden langsung merasakan pengalaman unik saat pertama kali berada di Jakarta. Dia berkesempatan melakukan konvoi mengelilingi kawasan SCBD dengan mengendarai Ducati</p>
-    <p>Panigale bersama 100 rider dari berbagai klub motor di Jakarta.</p>
-    <p>"Sungguh pengalaman yang luar biasa berada di Indonesia untuk pertama kali! Mengendarai motor di jalanan Jakarta bersama rombongan besar rasanya sangat luar biasa," kata Nicky Hayden seperti dikutip dari situs resmi MotoGP.</p>
-    <p>Pada kunjungannya yang kedua ke Jakarta, Hayden kembali mengaspal di jalanan ibu kota. Bedanya, kali ini dia meminjam motor polisi. Hayden juga terheran-heran dengan seorang pengendara sepeda motor yang membawa muatan besar di jok belakang motor.</p>
+    <pre>
+      Liputan6.com, Jakarta - Mendiang Nicky Hayden merupakan salah satu dari sekian banyak pebalap MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP. MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP.
+
+      Hayden sudah dua kali datang ke Jakarta, yakni pada 2013 dan 2014. Dalam dua kunjungannya itu, juara dunia MotoGP 2006 tersebut memiliki kenangan tersendiri dengan jalanan ibu kota.
+
+      @include('components.read-too')
+
+      Hayden pertama kali datang ke Jakarta pada April 2013 sebagai pebalap Ducati. Pebalap asal AS itu datang ke ibu kota untuk memenuhi undangan salah satu produsen pelumas top dunia.
+
+      Hayden langsung merasakan pengalaman unik saat pertama kali berada di Jakarta. Dia berkesempatan melakukan konvoi mengelilingi kawasan SCBD dengan mengendarai Ducati
+
+      Panigale bersama 100 rider dari berbagai klub motor di Jakarta.
+      "Sungguh pengalaman yang luar biasa berada di Indonesia untuk pertama kali! Mengendarai motor di jalanan Jakarta bersama rombongan besar rasanya sangat luar biasa," kata Nicky Hayden seperti dikutip dari situs resmi MotoGP.
+
+      Pada kunjungannya yang kedua ke Jakarta, Hayden kembali mengaspal di jalanan ibu kota. Bedanya, kali ini dia meminjam motor polisi. Hayden juga terheran-heran dengan seorang pengendara sepeda motor yang membawa muatan besar di jok belakang motor.
+    </pre>
   </div>
 </div>
