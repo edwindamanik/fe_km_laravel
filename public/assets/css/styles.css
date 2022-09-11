@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+ul, p, h4, h1 {
+    margin: 0;
+}
+
 .special-font-prompt {
     font-family: var(--prompt-font);
 }
@@ -67,10 +71,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* width: 70%; */
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
     padding: 0px;
 }
 
@@ -121,7 +123,6 @@ nav {
 }
 
 .breaking-news-container ul {
-    margin: 0;
     padding: 10px 20px;
 }
 
@@ -237,6 +238,7 @@ nav {
 }
 
 .owl-carousel {
+    margin-top: 10px;
     padding-bottom: 15px;
     border-bottom: 1px solid #E5E5E5;
 }
@@ -351,7 +353,6 @@ nav {
     color: #E50000;
     display: inline-block;
     text-transform: uppercase;
-    margin: 0;
 }
 
 .gallery-image-container .gallery-image-row-2 span {
@@ -366,7 +367,6 @@ nav {
     font-size: 16px;
     font-weight: 700;
     color: #000000;
-    margin: 0;
 }
 
 /* PROMOTION PRODUCT CSS */
@@ -405,7 +405,6 @@ nav {
     font-size: 14px;
     font-family: var(--lato-font);
     font-weight: 700;
-    margin: 0;
 }
 
 /* VIDEO NEWS STYLING */
@@ -421,7 +420,6 @@ nav {
     color: #E50000;
     display: inline-block;
     text-transform: uppercase;
-    margin: 0;
 }
 
 .video-news-container span {
@@ -446,6 +444,10 @@ nav {
 }
 
 /* TRENDING STYLING */
+.trending-tag-container {
+    margin-bottom: 30px;
+}
+
 .trending-tag-container h4 {
     font-weight: bold;
     font-size: 16px;
@@ -455,7 +457,6 @@ nav {
 }
 
 .trending-tag-container ul {
-    margin: 0;
     padding: 0;
 
 }
@@ -481,6 +482,10 @@ nav {
 }
 
 /* LIVE STREAMING CSS */
+.live-streaming-container {
+    margin-bottom: 30px;
+}
+
 .live-streaming-container h4 {
     font-weight: bold;
     font-size: 16px;
@@ -495,6 +500,7 @@ nav {
 }
 
 .live-streaming-container a {
+    margin-top: 10px;
     display: block;
     text-decoration: none;
 }
@@ -504,9 +510,14 @@ nav {
     font-size: 14px;
     color: #000000;
     margin-top: 6px;
+    font-weight: 700;
 }
 
 /* BERITA SIDEBAR CSS */
+.berita-sidebar-container {
+    margin-bottom: 30px;
+}
+
 .berita-sidebar-container h4 {
     font-weight: bold;
     font-size: 16px;
@@ -521,6 +532,7 @@ nav {
 }
 
 .berita-sidebar-container a {
+    margin-top: 10px;
     display: block;
     text-decoration: none;
 }
@@ -549,7 +561,6 @@ nav {
     font-size: 14px;
     color: #000000;
     font-weight: 700;
-    margin-left: 10px;
 }
 
 /* POPULER NEWS CSS */
@@ -568,6 +579,7 @@ nav {
 
 .populer-container a {
     display: block;
+    margin-top: 10px;
     text-decoration: none;
 }
 
@@ -575,12 +587,11 @@ nav {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
     padding: 20px 7px;
     border: 1px solid #E5E5E5;
-}
-
-.berita-populer-deskripsi {
-    margin-left: 10px;
+    margin: 0;
 }
 
 .list-berita-populer h1 {

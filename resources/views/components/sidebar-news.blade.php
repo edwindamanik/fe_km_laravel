@@ -7,11 +7,11 @@
     </figure>
   </a>
   <div class="list-berita-sidebar mt-2">
-    <a href="#" class="d-flex align-items-center justify-content-between">
+    <a href="#" class="d-flex align-items-center justify-content-between gap-3">
       <img src="{{ URL::asset('assets/images/berita-sidebar-image.png') }}">
       <p>Hentakan Kuat Ducati Scrambler Bikin Merinding</p>
     </a>
-    <a href="#" class="d-flex align-items-center justify-content-between">
+    <a href="#" class="d-flex align-items-center justify-content-between gap-3">
       <img src="{{ URL::asset('assets/images/berita-sidebar-image.png') }}">
       <p>Hentakan Kuat Ducati Scrambler Bikin Merinding</p>
     </a>
