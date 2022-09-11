@@ -1,4 +1,4 @@
-<div class="promotion-product-container d-flex justify-content-between">
+<div class="promotion-product-container d-flex justify-content-between align-items-center">
   <div class="promotion-card">
     <img src="{{ URL::asset('assets/images/bintang.png') }}">
     <a href="#">

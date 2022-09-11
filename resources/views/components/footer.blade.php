@@ -6,9 +6,6 @@
     <a href="#">redaksi</a>
     <a href="#">pedoman media siber</a>
     <a href="#">kode perilaku wartawan beritamusi</a>
-  </div>
-
-  <div class="second-link-footer d-flex flex-row justify-content-center">
     <a href="#">kode etik jurnalistik</a>
     <a href="#">pedoman hak jawab</a>
     <a href="#">kebijakan data pengguna</a>
