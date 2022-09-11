@@ -242,6 +242,7 @@ nav {
 }
 
 .owl-carousel {
+    z-index: 1;
     margin-top: 10px;
     padding-bottom: 15px;
     border-bottom: 1px solid #E5E5E5;
@@ -1154,4 +1155,117 @@ nav {
     font-weight: 400;
     font-size: 20px;
     color: #999999;
+}
+
+/* asd */
+.form-modal {
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .8);
+    transition: opacity linear .2s;
+    z-index: 2;
+}
+
+.form-modal:target {
+    height: 100%;
+    opacity: 1;
+}
+
+.form-modal .modal__content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+}
+
+.form-modal .modal__content__close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #CA0000;
+}
+
+.form-modal .modal__close::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.form-report h4 {
+    font-family: var(--prompt-font);
+    font-weight: 700;
+    font-size: 16px;
+    font-style: italic;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.form-report .banner-article {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-report .banner-article p {
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+
+.form-report .form-data-report {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-report .form-data-report input,
+.form-report .form-data-report textarea {
+    width: 100%;
+    padding: 6px;
+    background-color: #F9F9F9;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-report .submit-report-content {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.form-report .submit-report-content button {
+    outline: none;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    background-color: #CA0000;
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
 }
