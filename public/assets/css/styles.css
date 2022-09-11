@@ -904,3 +904,156 @@ nav {
     text-transform: uppercase;
     color: #000000;
 }
+
+/* TAB NEWS CSS */
+.tab-news-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tab-news-container .title-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.tab-news-container h1 {
+    font-family: var(--lato-font);
+    font-weight: 900;
+    font-size: 24px;
+    color: #000000;
+}
+
+.tab-news-container p {
+    font-family: var(--lato-font);
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+}
+
+.tab-news-container .tabs-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.tab-news-container .tabs-content a {
+    padding: 10px 15px;
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+
+.tab-news-container .tabs-content a:first-child, .tab-news-container .tabs-content a:hover {
+    border-bottom: 2px solid #000000;
+    color: #CA0000;
+}
+
+/* MORE INFO CSS */
+.more-info-container {
+    margin-bottom: 20px;
+    font-family: var(--lato-font);
+    font-size: 14px;
+    color: #000000;
+}
+
+.more-info-container p {
+    margin-top: 20px;
+}
+
+.more-info-container a {
+    color: #CA0000;
+}
+
+.more-info-container .desc {
+    margin-top: 5px;
+}
+
+/* PHOTO COLLECTION CSS */
+.photo-collection-container {
+    margin-bottom: 20px;
+}
+
+.photo-collection-container h4 {
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.photo-collection-container span {
+    color: #CA0000;
+}
+
+.photo-collection-container .card-photo-content {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.photo-collection-container .card-photo-news {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.photo-collection-container .card-photo-news img {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.photo-collection-container .card-photo-news figcaption {
+    font-family: var(--lato-font);
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+
+/* VIDEO COLLECTION CSS */
+.video-collection-container {
+    margin-bottom: 20px;
+}
+
+.video-collection-container h4 {
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.video-collection-container span {
+    color: #CA0000;
+}
+
+.video-collection-container .card-video-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.video-collection-container .card-video-news {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.video-collection-container .card-video-news iframe {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.video-collection-container .card-video-news p {
+    font-family: var(--lato-font);
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
