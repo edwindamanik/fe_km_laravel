@@ -10,7 +10,7 @@
   </div>
 
   <div class="nav-second_section d-flex justify-content-between">
-    <ul class="">
+    <ul>
       <li><a href="#">berita daerah</a></li>
       <li><a href="#">ekonomi bisnis</a></li>
       <li><a href="#">politik</a></li>
