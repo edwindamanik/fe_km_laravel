@@ -28,3 +28,7 @@ Route::get('/index-tag-paging', function () {
 Route::get('/index-paging', function () {
     return view('pages.index-paging-mk-bandung');
 });
+
+Route::get('/not-found', function () {
+    return view('pages.not-found-mk-bandung');
+});

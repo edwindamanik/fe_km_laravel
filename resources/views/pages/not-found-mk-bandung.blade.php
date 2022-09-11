@@ -1,6 +1,6 @@
 @extends('template.template')
 
-@section('title', 'Article Page')
+@section('title', '404 Not Found')
 
 @section('content-field')
     {{-- LAYOUT HOMEPAGE --}}
@@ -13,23 +13,8 @@
         <div class="row gx-5">
             <div class="col-8">
 
-                {{-- BERITA UTAMA --}}
-                @include('components.main-content-news')
-
-                {{-- RELATED TAG --}}
-                @include('components.related-tag')
-
-                {{-- CREDITS --}}
-                @include('components.credit')
-
-                {{-- SHARE NEWS --}}
-                @include('components.share-news')
-
-                {{-- REPORT ARTICLE --}}
-                @include('components.report-article')
-
-                {{-- BERITA TERKAIT --}}
-                @include('components.slider-news')
+                {{-- NOT FOUND --}}
+                @include('components.404-not-found')
 
             </div>
             <div class="col-4">
