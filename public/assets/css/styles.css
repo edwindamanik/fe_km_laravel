@@ -12,10 +12,14 @@
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-ul, p, h4, h1, pre {
+ul,
+p,
+h4,
+h1,
+pre {
     margin: 0;
 }
 
@@ -213,7 +217,7 @@ nav {
     font-weight: 400;
     font-size: 14px;
     color: #555555;
-    
+
 }
 
 /* SLIDER NEWS CSS */
@@ -632,7 +636,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.first-link-footer a{
+.first-link-footer a {
     font-family: var(--prompt-font);
     font-size: 14px;
     text-transform: uppercase;
@@ -743,43 +747,160 @@ nav {
 
 /* READ TOO CSS */
 .baca-juga-container {
-  background-color: #F9F9F9;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 25px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
 }
 
 .baca-juga-container h4 {
-  font-family: var(--lato-font);
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-left: 15px;
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 15px;
 }
 
 .baca-juga-card-news {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 12px;
 }
 
 .baca-juga-card-news a {
-  text-decoration: none;
-  display: block;
-  font-family: var(--lato-font);
-  font-weight: 700;
-  font-size: 12px;
-  border-left: 1px solid #E5E5E5;
-  border-right: 1px solid #E5E5E5;
-  color: #000000;
-  padding: 0px 15px;
+    text-decoration: none;
+    display: block;
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 12px;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    color: #000000;
+    padding: 0px 15px;
 }
 
-.baca-juga-card-news a:first-child, .baca-juga-card-news a:last-child {
+.baca-juga-card-news a:first-child,
+.baca-juga-card-news a:last-child {
     border: none;
 }
 
 .baca-juga-card-news a:hover {
-  color: #CA0000;
+    color: #CA0000;
+}
+
+/* RELATED TAG CSS */
+.related-tag-container {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.related-tag-container a {
+    background-color: #CA0000;
+    color: white;
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.related-tag-container a:last-child {
+    color: #555555;
+    background-color: #E5E5E5;
+}
+
+/* CREDIT CSS */
+.credit-container {
+    margin-bottom: 20px;
+}
+
+.row-card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.credit-container .card-credit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.credit-container .card-credit img {
+    object-fit: cover;
+}
+
+.credit-container h4,
+.credit-container p {
+    font-family: var(--lato-font);
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.credit-container .card-credit .desc-info p {
+    color: #999999;
+}
+
+/* SHARE NEWS CSS */
+.share-news-container {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.share-news-container .icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.share-news-container p,
+.share-news-container h4 {
+    font-family: var(--lato-font);
+    color: #000000;
+}
+
+.share-news-container h4 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.share-news-container .icons p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.share-news-container .icons h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* REPORT ARTICLE CSS */
+.report-article-container {
+    margin: 20px 0px;
+}
+
+.report-article-container a {
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #e5e5ee;
+    border-radius: 8px;
+}
+
+.report-article-container p {
+    display: inline-block;
+    font-family: var(--lato-font);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
 }

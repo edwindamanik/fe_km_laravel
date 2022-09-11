@@ -34,7 +34,20 @@
                     {{-- BERITA UTAMA --}}
                     @include('components.main-content-news')
 
-                    
+                    {{-- RELATED TAG --}}
+                    @include('components.related-tag')
+
+                    {{-- CREDITS --}}
+                    @include('components.credit')
+
+                    {{-- SHARE NEWS --}}
+                    @include('components.share-news')
+
+                    {{-- REPORT ARTICLE --}}
+                    @include('components.report-article')
+
+                    {{-- BERITA TERKAIT --}}
+                    @include('components.slider-news')
 
                 </div>
                 <div class="col-4">
