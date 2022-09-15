@@ -71,6 +71,3 @@
     {{-- FOOTER --}}
     @include('components.footer')
 @endsection
-
-@section('script-slider')
-@endsection

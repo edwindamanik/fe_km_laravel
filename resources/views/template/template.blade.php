@@ -10,8 +10,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="canonical" href="km-fe.herokuapp.com" />
     <link rel="preconnect" href="#" crossorigin="anonymous" /> <!-- CDN LINK IMAGE -->
-    <link rel="icon" type="image/png"
-        href="https://cdns.klimg.com/newshub.id/fe_setting/2022/05/06/1/favicon-1-1-20220506145515.ico" />
     <meta name="description"
         content="The latest news, Local News, Business Economy, Politic, Sports, Law & Order, Agri Farming, Entertainment, Photo, Video, More">
     <meta name="keywords" content="">
@@ -35,9 +33,6 @@
 
     <!-- CDN LINK -->
     <link rel="preconnect" href="https://cdns.klimg.com" crossorigin />
-    <link rel="preload"
-        href="https://cdns.klimg.com/newshub.id/resized/production/webp/168x34/fe_setting/2022/04/11/1/fe-setting-1-rev3.png"
-        as="image" />
     <noscript>
         <link rel="stylesheet"
             href="https://cdns.klimg.com/hyperlocal/static-production/defaultsite/desktop/css/font.6123b78e1a473cc71b9363044a0affa1.css" />
@@ -57,6 +52,23 @@
     </div>
 
 </body>
-@yield('script-slider')
+<script>
+const sliderContainers = [...document.querySelectorAll('.slider-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+sliderContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+</script>
 
 </html>
