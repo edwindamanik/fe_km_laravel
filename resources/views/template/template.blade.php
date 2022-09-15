@@ -38,30 +38,6 @@
     <link rel="preload"
         href="https://cdns.klimg.com/newshub.id/resized/production/webp/168x34/fe_setting/2022/04/11/1/fe-setting-1-rev3.png"
         as="image" />
-    <link rel="preload" href="https://fonts.gstatic.com/s/prompt/v5/-W_6XJnvUD7dzB2KZeKka1MsW5APdCox.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/prompt/v5/-W__XJnvUD7dzB2KYNodREEjew.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/prompt/v5/-W_6XJnvUD7dzB2KZeKka1MsW5APdCox.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload"
-        href="https://fonts.gstatic.com/s/googlesans/v44/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQoi-E.woff2"
-        as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload"
-        href="https://cdns.klimg.com/hyperlocal/static-production/defaultsite/desktop/css/font.6123b78e1a473cc71b9363044a0affa1.css"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet"
             href="https://cdns.klimg.com/hyperlocal/static-production/defaultsite/desktop/css/font.6123b78e1a473cc71b9363044a0affa1.css" />
@@ -81,11 +57,6 @@
     </div>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-</script>
 @yield('script-slider')
 
 </html>
