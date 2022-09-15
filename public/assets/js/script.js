@@ -1,17 +1,23 @@
-$('.owl-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  navText: [
-    '<img src="assets/icons/prev.svg" alt="prev" width="40px" height="40px"/>',
-    '<img src="assets/icons/next.svg" alt="next"  width="40px" height="40px"/>',
-  ],
+var carouselWidth = $('.carousel-inner')[0].scrollWidth;
+var cardWidth = $('.carousel-item').width();
 
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 3,
-      nav: true,
-      loop: true,
-    },
-  },
+var scrollPosition = 0;
+
+$('.carousel-control-next').on('click', function () {
+    if (scrollPosition < carouselWidth - cardWidth * 3) {
+        scrollPosition = scrollPosition + cardWidth;
+        $('.carousel-inner').animate({
+            scrollLeft: scrollPosition
+        }, 600);
+    }
+});
+
+$('.carousel-control-prev').on('click', function () {
+    if (scrollPosition > 0) {
+        console.log('prev');
+        scrollPosition = scrollPosition - cardWidth;
+        $('.carousel-inner').animate({
+            scrollLeft: scrollPosition
+        }, 600);
+    }
 });
