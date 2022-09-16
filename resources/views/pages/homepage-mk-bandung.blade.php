@@ -17,11 +17,11 @@
                 @include('components.main-news')
 
                 {{-- BERITA UTAMA LAINNYA --}}
-                <div class="mt-4">
+                <!-- <div class="mt-4">
                     <h4 class="special-font-prompt text-uppercase fst-italic fw-bold"
                         style="font-size: 16px; margin-left: 20px">Berita Utama Lainnya</h4>
                     @include('components.slider-news')
-                </div>
+                </div> -->
 
                 {{-- BERITA SPOTLIGHT --}}
                 <div class="mt-4">

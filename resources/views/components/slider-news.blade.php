@@ -15,7 +15,7 @@
               <img src="{{ URL::asset('assets/images/example.webp') }}" class="slider-thumb" alt="">
           </div>
           <div class="slider-info">
-              <h2 class="slider-title">brandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrand</h2>
+              <h2 class="slider-title">Ibu Kota Baru, Polri Rapatkan Satuan Kerja yang Bakal Pindah</h2>
           </div>
       </div>
       <div class="slider-card">
@@ -23,7 +23,7 @@
               <img src="{{ URL::asset('assets/images/example.webp') }}" class="slider-thumb" alt="">
           </div>
           <div class="slider-info">
-              <h2 class="slider-title">brandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrand</h2>
+              <h2 class="slider-title">Ibu Kota Baru, Polri Rapatkan Satuan Kerja yang Bakal Pindah </h2>
           </div>
       </div>
       <div class="slider-card">
@@ -31,7 +31,7 @@
               <img src="{{ URL::asset('assets/images/example.webp') }}" class="slider-thumb" alt="">
           </div>
           <div class="slider-info">
-              <h2 class="slider-title">brandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrandbrand</h2>
+              <h2 class="slider-title">Ibu Kota Baru, Polri Rapatkan Satuan Kerja yang Bakal Pindah </h2>
           </div>
       </div>
       <div class="slider-card">
@@ -39,7 +39,7 @@
               <img src="{{ URL::asset('assets/images/example.webp') }}" class="slider-thumb" alt="">
           </div>
           <div class="slider-info">
-              <h2 class="slider-title">brand</h2>
+              <h2 class="slider-title">Ibu Kota Baru, Polri Rapatkan Satuan Kerja yang Bakal Pindah </h2>
           </div>
       </div>
   </div>
